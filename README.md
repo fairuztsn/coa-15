@@ -37,7 +37,7 @@ To run this project, you need:
 
 4. Clone this repository:
    ```bash
-   git clone [<repository-url>](https://github.com/fairuztsn/coa-15.git)
+   git clone [https://github.com/fairuztsn/coa-15.git](https://github.com/fairuztsn/coa-15.git)
    cd coa-15
    ```
 
