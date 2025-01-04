@@ -37,8 +37,8 @@ To run this project, you need:
 
 4. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone [<repository-url>](https://github.com/fairuztsn/coa-15.git)
+   cd coa-15
    ```
 
 5. Make the `run.sh` script executable:
