@@ -99,8 +99,16 @@ HARUS_BEDA:
 
 HITUNG:
     # Calculate luas persegi panjang, t0 (luas) = t0 (panjang) * t1 (lebar)
-    mul $t0, $t0, $t1
+    li $t7, 0
 
+LOOP_HITUNG:
+    beqz $t1, END_HITUNG
+    add $t7, $t7, $t0
+    sub $t1, $t1, 1
+    j LOOP_HITUNG
+
+END_HITUNG:
+    move $t0, $t7
     jr $ra
 
 KELUARAN:
