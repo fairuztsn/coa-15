@@ -1,2 +1,2 @@
 clear
-spim -file program.s
+spim -file program.asm
